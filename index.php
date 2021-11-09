@@ -1,4 +1,5 @@
 <?php
+    session_start();
     // Composer autoloader
     require_once 'vendor/autoload.php';
 
@@ -7,4 +8,7 @@
     $generateTicket = new GenerateTicket();
 
     $generateTicket->run();
+
+
+
 
